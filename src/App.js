@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Maintable from './components/Tables';
 import List from './components/list';
+import Liststate from './components/listState';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component{
         <Header/>
         <Maintable/>
         <List />
+        <Liststate />
         
       </div>
     );
